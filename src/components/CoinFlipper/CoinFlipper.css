@@ -5,18 +5,18 @@
   color: white;
   padding: 0.6em;
   font-size: 1em;
-  background: slateblue;
+  background: rgb(21, 192, 78);
   border-radius: 5px;
   cursor: pointer;
 }
 
 .CoinFlipper button:hover {
-  background: darkslateblue;
+  background: rgb(26, 139, 12);
 }
 
 .CoinFlipper button:disabled {
   cursor: not-allowed;
-  background: #D9D7DE;
+  background: #d9d7de;
 }
 
 .CoinFlipper-number {
@@ -77,4 +77,8 @@
   100% {
     transform: translate(0.4em, 0);
   }
+}
+
+.CoinFlipper strong {
+  align-items: flex-end;
 }
